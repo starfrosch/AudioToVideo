@@ -13,6 +13,8 @@ brew install imagemagick
 
 Fight imagemagick to support pango https://stackoverflow.com/questions/25838714/error-when-trying-to-use-pango-with-imagemagick-on-osx
 
+sudo chmod +x AudioToVideo.sh
+
 # Run
 AudioToVideo.sh /path/to/image.jpg /path/to/audio.mp3 "artist name" "track name"
 
