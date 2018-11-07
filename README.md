@@ -27,6 +27,6 @@ Input Artist Name: starfrosch
 
 Input Track Title: Chillax
 
-AudioToVideo.sh paul-bulai-448776-unsplash.jpg Starfrosch.Chillax.wav starfrosch Chillax
+AudioToVideo.sh paul-bulai-448776-unsplash.jpg Starfrosch-Chillax.wav starfrosch Chillax
 
 Watch the result https://www.youtube.com/watch?v=jdUZetNgwl8
