@@ -1,5 +1,5 @@
 # AudioToVideo
-Create a video for YouTube from an audio file, image and text input with a waveform animation.
+Create a slideshow video for YouTube from an audio file, images and text input with a waveform animation.
 
 # Install
 
@@ -19,7 +19,7 @@ sudo chmod +x AudioToVideo.sh
 AudioToVideo.sh /path/to/image.jpg /path/to/audio.mp3 "artist name" "track name"
 
 
-# Example
+# Example with a single image
 
 Input Audio: https://archive.org/download/starfrosch-mostwanted/Starfrosch-Chillax.wav
 
@@ -32,3 +32,8 @@ Input Track Title: Chillax
 AudioToVideo.sh paul-bulai-448776-unsplash.jpg Starfrosch-Chillax.wav starfrosch Chillax
 
 Watch the result https://www.youtube.com/watch?v=jdUZetNgwl8
+
+
+# Example to create a slideshow
+
+AudioToVideo.sh /images/*.jpg Starfrosch-Chillax.wav starfrosch Chillax
