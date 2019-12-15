@@ -4,7 +4,8 @@ if [ -z "$1" ] && [ -z "$2" ] && [ -z "$3" ] && [ -z "$4" ]; then
     echo "AudioToVideo.sh /path/to/image.jpg /path/to/audio.mp3 \"artist name\" \"Track Title\""
 else
     # generate text image for video
-    convert -gravity southeast -splice 40x40  -gravity northwest -splice 40x40 -font Helvetica -gravity Center -weight 700 -pointsize 100 pango:"<b>$3</b>\n$4" image-text.png
+    #convert -gravity southeast -splice 40x40  -gravity northwest -splice 40x40 -font Helvetica -gravity Center -weight 700 -pointsize 100 pango:"<b>$3</b>\n$4" image-text.png
+    convert -gravity southeast -splice 40x40  -gravity northwest -splice 40x40 -font Helvetica-Bold -gravity Center -weight 700 -pointsize 100 caption:"$3\n$4" image-text.png
     # convert image to full hd for video
     convert -gravity Center -resize 1920x1080^ -extent 1920x1080 "$1" "$3"-"$4"-1920x1080.png
     # merge transparent images for video
